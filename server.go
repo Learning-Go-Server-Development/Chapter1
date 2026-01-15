@@ -9,5 +9,5 @@ func main() {
 	port := "3000"
 	msg := "Server starting on port "
 	fmt.Println(msg + port)
-	http.ListenAndServe(":8080", nil)
+	http.ListenAndServe(":3000", nil)
 }
