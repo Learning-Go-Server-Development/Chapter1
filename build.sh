@@ -1,1 +1,1 @@
-go build -o main *.go
+go build -o server *.go
